@@ -17,3 +17,6 @@ Route::get('/', function () {
 
 //??????
 Route::resource('articles','ArticlesController');
+
+//markdown ??
+Route::post('markdown', 'ArticlesController@markdown')->name('markdown');
